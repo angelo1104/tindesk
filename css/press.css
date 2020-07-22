@@ -1,0 +1,42 @@
+#press {
+  background-color: #ef8172;
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (min-width:1000px) {
+  .press-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.press-image {
+  width: 70%;
+  margin: 7% 10%;
+}
+
+@media only screen and (min-width:1000px) {
+  .press-image {
+    width: 80%;
+    display: inline-block;
+    margin: auto 10%;
+    padding: 7% 15%;
+  }
+
+  .bottom-press-image {
+    margin-top: 0;
+  }
+
+  @media only screen and (min-width:1000px) {
+    .bottom-press-image {
+      margin-top: 0;
+    }
+  }
+
+  .techcrunch {
+    margin-bottom: auto;
+    margin-top: 20%;
+  }

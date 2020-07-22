@@ -1,0 +1,40 @@
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cta-description {
+  font-family: 'Montserrat', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin: 5px 10px 10px;
+}
+
+@media only screen and (min-width:1000px) {
+  .cta-description {
+    font-size: 3.5rem;
+  }
+}
+
+.cta-button {
+  margin: 3% 7%;
+}
+
+@media only screen and (min-width:1000px) {
+  .cta-button {
+    margin: 25px 10px;
+  }
+}
+
+.apple-cta {
+  margin-bottom: 2.5%;
+  margin-top: 4.5%;
+}
+
+.google-play-cta {
+  margin-top: 0;
+}

@@ -1,0 +1,45 @@
+#footer {
+  text-align: center;
+}
+
+.footer-icon {
+  color: #212529;
+  margin: 4% 1.5%;
+}
+
+@media only screen and (min-width:1000px) {
+  .footer-icon {
+    font-size: 1rem;
+    margin: 2% 0.5% 1%;
+  }
+}
+
+#footer p {
+  color: grey;
+}
+
+@media only screen and (min-width:1000px) {
+  #footer p {
+    font-size: 1rem;
+  }
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+.fa-facebook-f:hover {
+  color: #1197F6;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+  color: #D32E81;
+}
+
+.fa-envelope:hover {
+  color: #D4493C;
+}

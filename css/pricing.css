@@ -1,0 +1,87 @@
+#pricing {
+  overflow: hidden;
+  text-align: center;
+}
+
+.pricing-header {
+  font-family: 'Montserrat', monospace;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin: 7% 0 4%;
+}
+
+@media only screen and (min-width:1000px) {
+  .pricing-header {
+    font-size: 3rem;
+  }
+}
+
+.pricing-description {
+  font-family: 'Montserrat', inherit;
+  font-weight: 300;
+  color: grey;
+  width: 80%;
+  margin-left: 10%;
+}
+
+@media only screen and (min-width:1000px) {
+  .pricing-description {
+    font-size: 2rem;
+  }
+}
+
+.card-col {
+  overflow: hidden;
+  padding: 7% 15%;
+}
+
+@media only screen and (min-width:1000px) {
+  .card-col {
+    padding: 4%;
+  }
+}
+
+.card {
+  margin: 2% 10%;
+  text-align: center;
+}
+
+@media only screen and (min-width:1000px) {
+  .card {
+    margin: 3% 4%;
+  }
+}
+
+.card-body p {
+  margin-bottom: 4%;
+  margin-top: 4%;
+  font-family: 'Montserrat', cursive;
+  color: grey;
+}
+
+.last-para {
+  margin-bottom: 6%;
+}
+
+.card-title {
+  font-family: 'Montserrat', cursive;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.price {
+  font-family: 'Montserrat', fantasy;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+button h5 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Montserrat', monospace;
+}
+
+.btn-block {
+  padding: auto 2.5%;
+  height: 95%
+}
